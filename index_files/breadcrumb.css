@@ -1,0 +1,69 @@
+#cms-breadcrumb {
+ position: absolute;
+ top:0px;
+ left:0px;
+ background-color : rgb(25,25,25);
+ width: 45%;
+
+}
+#cms-breadcrumb ul, #cms-breadcrumb li {
+ list-style-type:none;
+ padding:0;
+ margin:0;
+}
+#cms-breadcrumb ul {
+ height:40px;
+}
+
+#cms-breadcrumb ul li {
+ float:left;
+ line-height:40px;
+ width: auto;
+ text-align: center;
+ 
+ color:#fff;
+font-family: 'Quicksand';
+	font-size: 12px;
+	font-weight: 100;
+	
+}
+#cms-breadcrumb ul li:first-child{
+}
+
+.cms-breadcrumbItem span{
+	height: 100%;
+}
+
+.cms-breadcrumbItem span a div{
+ display:block;
+ padding:0 10px 0 5px;
+ background-color : rgb(248,86,8);
+
+}
+
+
+.cms-breadcrumbItem{
+	color:#fff;
+}
+
+.cms-breadcrumbItem span a div{
+ color: #fff;
+
+}
+
+.cms-breadcrumbItem.selected span a div{
+  display:block;
+ padding:0 10px 0 5px;
+/* background:url(../images/crumbs.gif) no-repeat center right; */
+ background-color: none;
+ color: #fff;
+}
+
+#cms-breadcrumb ul li {
+ color:#fff;
+}
+
+#cms-breadcrumb ul li span a:hover div, #cms-breadcrumb ul li span a:focus div{
+ 
+}
+

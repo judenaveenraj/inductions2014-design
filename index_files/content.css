@@ -1,0 +1,50 @@
+/* Content Styling */
+
+.contentcontainer {
+	margin: 0 10px;
+	height: 100%;
+	z-index: 98;
+	background: none;
+}	
+
+.contentcontainer .topcontentbar {
+	/*background: url(../images/content1.png);*/
+	height:14px;
+}
+
+.contentcontainer .bottomcontentbar {
+/*	background: url(../images/content2.png);*/
+	height: 14px;
+}
+.contentcontainer #cms-content {
+	padding: 10px;
+	
+	border-radius: 10px;
+	padding-bottom:20px;
+	height: 100%;
+	z-index: 98;
+	margin: 5px;
+	margin-left: 155px;
+	font-size: 1.2em;
+
+}
+
+.contentcontainer #cms-leftcontent {
+	width : 150px;
+	position:absolute;
+	top:20%;
+	left:0px;
+	margin: 0;
+	font-weight: 300;
+	font-size: 1.2em;
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow:    3px 3px 9px 0px rgba(50, 50, 50, 0.2);
+	box-shadow:         3px 3px 9px 0px rgba(50, 50, 50, 0.2);
+	
+
+}
+

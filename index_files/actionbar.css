@@ -1,0 +1,106 @@
+.actionbarcontainer{
+	position: absolute;
+	top:0px;
+	right:0px;
+	float :right;
+	width: 45%;
+	height:40px;
+	font-family: 'Quicksand';
+	font-weight: 200;
+	text-transform: capitalize;
+}
+
+div.actionbarcontainer div {
+	background-color : rgb(25,25,25);
+	height:40px;
+}
+div.actionbar div {
+	float: right;
+	padding: 0;
+	list-style: none;
+	background-color : rgb(25,25,25);
+
+	
+}
+div.actionbar div  span {
+	overflow: hidden;
+	float: right; 
+	height:40px;
+	border-left: rgba(248,86,8,0.0) solid 1px ;
+}
+	
+div.actionbar div  span a {
+	display: block;
+	padding: 30px;
+	padding-top: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+div.actionbar div  span a:hover {
+	color: #ddd;
+	background-color: rgb(45,67,88);
+}
+div.actionbar div span a img {
+	float: left;
+	position: relative;
+}
+/*.actionbarcontainer {
+	
+}
+.actionbar {
+	width: 920px;
+	margin: 0 auto;
+}
+.actionbar a {
+	color: #aaa;
+	font-size: 12px;
+	font-family: sans-serif;
+	padding: 5px;
+}
+.actionbar > div {
+	float: left;
+	padding: 0px 2px;
+	line-height: 30px;
+}
+
+#cms-actionbarmodule {
+	width: 120px;
+}
+.cms-actionbarModuleItem {
+	padding: 5px;
+}
+.cms-actionbarModuleItem:hover {
+	background: #000;
+}
+#cms-actionbarPage {
+	width: 800px;
+}
+.cms-actionbarPageItem {
+	padding: 5px;
+}
+.cms-actionbarPageItem:hover {
+	background: #000;
+}
+*/
+
+
+/*  Induction only action bar  */
+
+a#a.robots-nofollow.cms-actionpdf {
+	display:none;
+	width:0;
+	height: 0;
+	overflow: hidden;
+}
+a.robots-nofollow.cms-actionsearch {
+	display:none;
+	width:0;
+	height: 0;
+	overflow: hidden;	
+}
+
+a.robots-nofollow.cms-actionprofile > img{
+	display: none;
+}
+
