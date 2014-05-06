@@ -24,11 +24,14 @@ ul.topnav li:hover{
 	background-color: #efefef;
 }
 
-ul.topnav li:hover .subnav{
+ul.topnav li:hover .div_subnav{
 	opacity: 1;
-	
 	width: 100%;
 	min-width: 200px;
+}
+
+ul.topnav li:hover .subnav{
+	visibility: visible;
 }
 
 ul.topnav > li > a {
@@ -74,8 +77,7 @@ ul.topnav > li > a:hover {
 
 }
 
-
-ul.subnav {
+div.div_subnav {
 	opacity: 0;
 	width: 0;
 	position: relative;
@@ -84,12 +86,32 @@ ul.subnav {
 	padding : 0;
 	list-style-type: none;
 	margin: 0;
+	transition: all 0.5s ease;
+	overflow: hidden;
+}
+
+div.div_subnav .depth3{
+	margin-left: 20px;
+	opacity: 0;
+}
+
+div.div_subnav .div_subnav{
+	visibility: hidden;
+	margin-top: 13px;
+}
+
+
+ul.subnav {
+	padding : 0;
+	visibility: hidden;
+	margin: 0;
+	list-style-type: none;
 	background-color  : rgba(0,0,0,0.8);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	transition: all 0.5s ease;
-	overflow: hidden;
+	
 }
 
 ul.subnav > li {
@@ -99,9 +121,15 @@ ul.subnav > li {
 	padding-top : 10px;
 }
 
-ul.subnav > li:hover {
+ul.subnav.depth2 > li:hover {
 	background-color: rgba(0,0,0,0.8);
 }
+
+ul.subnav.depth2 > li:hover .subnav.depth3{
+	background-color: rgba(0,0,0,0.8);
+	opacity: 1;
+}
+
 
 ul.subnav > li > a {
 	color: #3688BA;

@@ -36,10 +36,11 @@ div.actionbar div  span a {
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
+	transition: all 0.2s ease;
 }
 div.actionbar div  span a:hover {
 	color: #ddd;
-	background-color: rgb(45,67,88);
+	background-color: rgb(248,86,8);
 }
 div.actionbar div span a img {
 	float: left;
