@@ -18,7 +18,7 @@
 }
 
 #cms-content{
-	overflow-y: scroll !important; 
+	overflow-y: scroll ; 
 	max-height: 475px !important; 
 
 }
