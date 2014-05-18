@@ -96,10 +96,10 @@ if(!defined('__PRAGYAN_CMS'))
 			<div class="bottomcontentbar"></div>
 		</div>
 		<div class="clearer"></div>
-		<!--<div class="footer">
+		<div class="footer" style="position:absolute;bottom:0;width:100%;">
 			
 			<?php echo $FOOTER;?>	
-		</div>-->
+		</div>
 	</div>
 </div>
 </body>
