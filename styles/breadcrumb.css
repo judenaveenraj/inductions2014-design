@@ -4,6 +4,8 @@
  left:0px;
  background-color : rgb(25,25,25);
  width: 45%;
+ font-weight: 400;
+ font-size: 1.1em;
 
 }
 #cms-breadcrumb ul, #cms-breadcrumb li {
@@ -20,8 +22,8 @@
  text-align: center;
  color:#fff;
  font-family: 'Quicksand';
- font-size: 12px;
- font-weight: 100;	
+ font-size: 1.1em;
+ font-weight: 400;	
 }
 
 .cms-breadcrumbItem span a div{
