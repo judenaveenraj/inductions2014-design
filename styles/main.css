@@ -63,6 +63,7 @@ body {
 form{
         /*font-family: 'Segoe UI Light', Tahoma, Arial, Helvetica, Sans-Serif;
         font-family: 'Segoe UI', Tahoma, Arial, Helvetica, Sans-Serif;*/
+        font-family: 'Quicksand';
         max-width: 700px;
         max-height: 500px;
         color: black;
@@ -73,6 +74,7 @@ form{
 }
 
 form fieldset{
+        font-family: 'Quicksand';
         padding: 10px;
         margin: 10px;
 }
@@ -82,7 +84,7 @@ form td{
 form a{
         text-decoration: none;
         padding: 5px;
-        color: #fff;
+        
 }
 form a:hover{
         text-decoration: underline;
@@ -112,6 +114,7 @@ input[type='submit']{
         padding-bottom: 10px;
         background: rgb(248,86,8);
         color: #fff;
+        font-size: 1.0em;
 }
 input[type='reset']{
         min-width: 120px;
