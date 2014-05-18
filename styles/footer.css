@@ -16,3 +16,9 @@
 	bottom: 0px;
 	width: 100%;
 }
+
+#cms-content{
+	overflow-y: scroll !important; 
+	max-height: 475px !important; 
+
+}
