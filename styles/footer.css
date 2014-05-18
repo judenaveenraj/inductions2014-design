@@ -12,4 +12,7 @@
 	font-family: 'Quicksand';
 	font-size: 14px;
 	font-weight: bold;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
 }
