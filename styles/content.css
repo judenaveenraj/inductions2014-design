@@ -26,7 +26,9 @@
 	margin: 5px;
 	margin-left: 155px;
 	font-size: 1.2em;
-
+	
+	border: 1px solid;
+	border-color: rgb(248,86,8);
 }
 
 .contentcontainer #cms-leftcontent {
