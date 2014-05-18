@@ -5,9 +5,9 @@
 	float :right;
 	width: 45%;
 	height:40px;
-	font-family: 'Quicksand';
+	font-family: 'Source Sans Pro';
 	font-weight: 400;
-	font-size: 1.1em;
+	font-size: 1.3em;
 	text-transform: capitalize;
 }
 
@@ -33,7 +33,7 @@ div.actionbar div  span {
 div.actionbar div  span a {
 	display: block;
 	padding: 30px;
-	padding-top: 15px;
+	padding-top: 9px;
 	text-align: center;
 	text-decoration: none;
 	color: #fff;

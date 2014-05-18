@@ -24,7 +24,7 @@ body {
 	width: 100%;
 	margin: auto;
 	color: black;
-	font-family: 'Quicksand';
+	font-family: 'Source Sans Pro';
 	/*font-family: 'Open Sans', sans-serif;*/
 	font-size : 12px;
 	text-align: center;
@@ -63,7 +63,7 @@ body {
 form{
         /*font-family: 'Segoe UI Light', Tahoma, Arial, Helvetica, Sans-Serif;
         font-family: 'Segoe UI', Tahoma, Arial, Helvetica, Sans-Serif;*/
-        font-family: 'Quicksand';
+        font-family: 'Source Sans Pro';
         max-width: 700px;
         max-height: 500px;
         color: black;
@@ -74,7 +74,7 @@ form{
 }
 
 form fieldset{
-        font-family: 'Quicksand';
+        font-family: 'Source Sans Pro';
         padding: 10px;
         margin: 10px;
 }
