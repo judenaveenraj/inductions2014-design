@@ -217,7 +217,6 @@ input[type=checkbox],input[type=radio]
         margin: 0;
         height: 30px;
         width: 30px;
-        opacity: 0;
         width: 30px;
         z-index: 10;
 }
