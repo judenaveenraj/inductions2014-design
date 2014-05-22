@@ -113,7 +113,6 @@ input[type='submit']{
         padding-top: 10px;
         padding-bottom: 10px;
         background: rgb(248,86,8);
-        color: #fff;
         font-size: 1.0em;
 }
 input[type='reset']{
@@ -223,15 +222,19 @@ input[type=checkbox],input[type=radio]
 
 /*---------- SCROLLBAR-------*/
 
-#cms-content::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: .7em;
 }
 
-#cms-content::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
 }
 
-#cms-content::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
 
     background-color: rgb(248,86,8);/*darkgrey;*/
   border-radius: 10px;
+}
+
+form{
+    overflow-y: auto;
 }
