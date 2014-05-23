@@ -9,7 +9,7 @@
 	vertical-align: middle;
 	color: gray; /*#1d7ccc;*/
 	background-color: black;
-	font-family: 'Quicksand';
+	font-family: 'Source Sans Pro';
 	font-size: 14px;
 	font-weight: bold;
 	position: absolute;
@@ -18,7 +18,7 @@
 }
 
 #cms-content{
-	overflow-y: scroll !important; 
+	overflow-y: scroll ; 
 	max-height: 475px !important; 
 
 }

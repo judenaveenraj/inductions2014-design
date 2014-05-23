@@ -5,7 +5,7 @@
 	height: 100%;
 	z-index: 98;
 	background: none;
-	font-family: 'Quicksand';
+	font-family: 'Source Sans Pro';
 }	
 
 .contentcontainer .topcontentbar {
@@ -15,7 +15,7 @@
 
 .contentcontainer .bottomcontentbar {
 /*	background: url(../images/content2.png);*/
-	height: 14px;
+	height: 14px;Source Sans Pro
 }
 .contentcontainer #cms-content {
 	padding: 10px;
