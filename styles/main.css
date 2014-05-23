@@ -1,0 +1,245 @@
+/*CSS Document*/
+/* Contains Layout and global styling*/
+
+/**
+ * Cancel Some Annoying Stylings SHOULD BE THE FIRST
+ */
+div {
+	margin: 0;
+	padding: 0;
+}
+ul, li{
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #006699;
+}
+
+
+body {
+	background-color: rgb(240,240,240);
+	padding:0;
+	width: 100%;
+	margin: auto;
+	color: black;
+	font-family: 'Source Sans Pro';
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-size : 12px;
+	text-align: center;
+
+}
+
+body img 
+{
+	border : none;
+}
+
+body {
+	text-align: left;
+}
+
+.outercontainer {
+	
+	z-index: 98;
+}
+
+/**
+ * Common styling
+ */
+.clearer{
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+.innercontainer{
+
+}
+
+/*---------FORMS---------------*/
+
+form{
+        /*font-family: 'Segoe UI Light', Tahoma, Arial, Helvetica, Sans-Serif;
+        font-family: 'Segoe UI', Tahoma, Arial, Helvetica, Sans-Serif;*/
+        font-family: 'Source Sans Pro';
+        max-width: 700px;
+        max-height: 500px;
+        color: black;
+        max-height: 500px;
+        overflow-y: hidden;
+        overflow-x:hidden;
+        margin: 10px;
+}
+
+form fieldset{
+        font-family: 'Source Sans Pro';
+        padding: 10px;
+        margin: 10px;
+}
+form td{
+        padding: 5px;
+}
+form a{
+        text-decoration: none;
+        padding: 5px;
+        
+}
+form a:hover{
+        text-decoration: underline;
+        cursor: pointer;
+}
+input{
+        box-shadow: none;
+        color: #000;
+}
+textarea{
+        border: 2px #ccc solid;
+        overflow: hidden;
+}
+input[type='text']{
+        border: 2px #ccc solid;
+        padding: 5px;
+}
+input[type='password']{
+        border: 2px #ccc solid;
+        padding: 5px;
+}
+input[type='submit']{
+        min-width: 120px;
+        border: none;
+        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: rgb(248,86,8);
+        font-size: 1.0em;
+}
+input[type='reset']{
+        min-width: 120px;
+        border: none;
+        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: #ccc;
+}
+input[type='button']{
+        min-width: 120px;
+        border: none;
+        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: #ccc;
+}
+select{
+        border: 2px #ccc solid;
+        padding: 5px;
+        max-height: 300px;
+}
+input[type='submit']:hover{
+        cursor: pointer;
+}
+input[type='submit']:active{
+        border: #000;
+}
+input[type=submit]:disabled,
+button:disabled {
+        background: #ccc;
+}
+input[type=radio] + label , input[type=checkbox] + label
+{
+        background: url(gr_custom-inputs.png) 0 -1px no-repeat;
+        height: 30px;
+        width: 30px;
+        padding-left: 20px;
+        margin-left: -20px;
+        z-index: -1;
+}
+
+input[type=radio] + label                                                                               { background-position: 0 -158px; }
+ 
+/* Checked styles */
+input[type=radio]:checked + label                                                       { background-position: 0 -241px; }
+input[type=checkbox]:checked + label                                                    { background-position: 0 -81px; }
+input[type=checkbox]:hover:checked + label,
+input[type=checkbox]:focus:checked + label,
+input[type=checkbox]:checked + label:hover,
+input[type=checkbox]:focus:checked + label                                      { background-position: 0 -101px; }
+input[type=radio]:hover:checked + label,
+input[type=radio]:focus:checked + label,
+input[type=radio]:checked + label:hover,
+input[type=radio]:focus:checked + label                                                 { background-position: 0 -261px; }
+ 
+/* Hover & Focus styles */
+input[type=checkbox]:hover + label,
+input[type=checkbox]:focus + label,
+input[type=checkbox] + label:hover                                                      { background-position: 0 -21px; }
+input[type=radio]:hover + label,
+input[type=radio]:focus + label,
+input[type=radio] + label:hover                                                         { background-position: 0 -181px; }
+ 
+/* Active styles */
+input[type=checkbox]:active + label,
+input[type=checkbox] + label:hover:active                                               { background-position: 0 -41px; }
+input[type=radio]:active + label,
+input[type=radio] + label:hover:active                                          { background-position: 0 -201px; }
+input[type=checkbox]:active:checked + label,
+input[type=checkbox]:checked + label:hover:active                               { background-position: 0 -121px; }
+input[type=radio]:active:checked + label,
+input[type=radio]:checked + label:hover:active                          { background-position: 0 -281px; }
+ 
+/* Disabled styles */
+input[type=checkbox]:disabled + label,
+input[type=checkbox]:hover:disabled + label,
+input[type=checkbox]:focus:disabled + label,
+input[type=checkbox]:disabled + label:hover,
+input[type=checkbox]:disabled + label:hover:active                      { background-position: 0 -61px; }
+input[type=radio]:disabled + label,
+input[type=radio]:hover:disabled + label,
+input[type=radio]:focus:disabled + label,
+input[type=radio]:disabled + label:hover,
+input[type=radio]:disabled + label:hover:active                         { background-position: 0 -221px; }
+input[type=checkbox]:disabled:checked + label,
+input[type=checkbox]:hover:disabled:checked + label,
+input[type=checkbox]:focus:disabled:checked + label,
+input[type=checkbox]:disabled:checked + label:hover,
+input[type=checkbox]:disabled:checked + label:hover:active      { background-position: 0 -141px; }
+input[type=radio]:disabled:checked + label,
+input[type=radio]:hover:disabled:checked + label,
+input[type=radio]:focus:disabled:checked + label,
+input[type=radio]:disabled:checked + label:hover,
+input[type=radio]:disabled:checked + label:hover:active         { background-position: 0 -301px; }
+ 
+input[type=checkbox],input[type=radio]
+{
+        padding: 0;
+        margin: 0;
+        height: 30px;
+        width: 30px;
+        width: 30px;
+        z-index: 10;
+}
+
+/*---------- SCROLLBAR-------*/
+
+::-webkit-scrollbar {
+    width: .7em;
+}
+
+::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: rgb(248,86,8);/*darkgrey;*/
+  border-radius: 10px;
+}
+
+form{
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.cms-error{
+   background-repeat: no-repeat;
+   padding: 30px;
+}

@@ -1,0 +1,24 @@
+/* Footer */
+
+.footer {
+	border-top:2px black solid;
+	height: 7%;
+	line-height: 57px;
+	/*background: url(../images/footer_bg.jpg) repeat-x;*/
+	text-align: center;
+	vertical-align: middle;
+	color: gray; /*#1d7ccc;*/
+	background-color: black;
+	font-family: 'Source Sans Pro';
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+#cms-content{
+	overflow-y: scroll ; 
+	max-height: 475px !important; 
+
+}
