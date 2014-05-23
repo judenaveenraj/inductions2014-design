@@ -239,3 +239,7 @@ form{
     overflow-y: auto;
     overflow-x: auto;
 }
+.cms-error{
+   background-repeat: no-repeat;
+   padding: 30px;
+}
